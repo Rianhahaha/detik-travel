@@ -17,7 +17,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://your.url.from.vercel.app",
+        "APP_URL": "https://detik-travel-git-main-rianhahahas-projects.vercel.app/",
         "APP_KEY":"base64:4nGGCQqs6j/SFGd9kjYTddQS+AKYS4YoOdKZ55zf+I0=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -30,26 +30,7 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     },
-        "outputDirectory": "public",
-        "builds": [
-            {
-              "src": "public/index.php",
-              "use": "@vercel/php"
-            },
-            {
-              "src": "resources/css/app.css",
-              "use": "@vercel/static-build",
-              "config": {
-                "distDir": "public/css"
-              }
-            },
-            {
-              "src": "resources/js/app.js",
-              "use": "@vercel/static-build",
-              "config": {
-                "distDir": "public/js"
-              }
-            }
-          ]
+        "outputDirectory": "public"
+        
     
 }
